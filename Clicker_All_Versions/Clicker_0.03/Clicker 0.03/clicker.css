@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: yellow;
+}
+
+#vasen {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #485460;
+}
+
+#forsene {
+  width: 70%;
+  height: 50%;
+  float: left;
+}
+
+#text {
+  float: left;
+}
+
+#oikea {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #485460;
+}
+
+#laatikko {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#oikeav {
+  float:left;
+  width: 50%;
+  height: 100%;
+}
+
+#oikeao {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+#forsene:hover {
+  cursor: pointer;
+  width: 71%;
+  height: 51%;
+}
+
+input {
+  background-color: : #ff5e57
+}
+
+.cush {
+  float: left;
+
+}

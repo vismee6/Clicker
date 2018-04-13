@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<link rel="stylesheet" type="text/css" href="clicker.css">
+		<script src="clicker.js"></script>
+		<title>Clicker</title>
+	</head>
+	<body>
+		<div id="vasen">
+			<h1 id="keksimaarapersecond">You are gaining 0 Chromosomes per/s</h1>
+			<h1>Chromosomes</h1>
+			<input type="text" id="text" disabled style ="text-align:center" value=0>
+			<br>
+			<br>
+			<img onclick="add()" id="forsene" src="forsene.png" alt="Forsene">
+		</div>
+		<div id="oikea">
+			<div id="oikeav">
+				<p>Buy One Specimen</p>
+				<button class="cush" onclick="buySpecimen()"><img src="forsent.png" alt="Forsent" width ="60px" height ="60px"></button>
+				<p class="cush" id="costSpecimen"> Specimen</p>
+				<p class="cush" id="amountSpecimen">You Own 0 Specimen</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>Buy 1 IQ</p>
+				<button class="cush" onclick="buyiq()"><img src="ForsenOld.PNG" alt="ForsenOld" width ="60px" height ="60px"></button>
+				<p class="cush" id="costiq"> IQ</p>
+				<p class="cush" id="amountiq">You Own 0 IQ</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>Buy 1 LUL</p>
+				<button class="cush" onclick="buylul()"><img src="LUL.jpg" alt="LUL" width ="60px" height ="60px"></button>
+				<p class="cush" id="costlul"> LUL</p>
+				<p class="cush" id="amountlul">You Own 0 LULs</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>Buy 1 Niilo</p>
+				<button class="cush" onclick="buyAutism()"><img src="Autism.jpg" alt="Autism" width ="60px" height ="60px"></button>
+				<p class="cush" id="costAutism"> Autism</p>
+				<p class="cush" id="amountAutism">You Own 0 Niilos</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>Buy 1 Bad Meme</p>
+				<button class="cush"  onclick="buybadMeme()"><img src="badmeme.jpg" alt="badmeme" width ="60px" height ="60px"></button>
+				<p class="cush" id="costbadMeme"> bad meme</p>
+				<p class="cush" id="amountbadMeme">You Own 0 Bad Memes</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<button><a href="#" onclick="save()">Tallenna</a></button>
+				<button><a href="#" onclick="load()">Lataa</a></button>
+			</div>
+			<div id="oikeao">
+				<p id="amountSpecimenMultiplier">Multiplier Upgrade x2</p>
+				<button onclick="buySpecimenMultiplier()"><span id="amountSpecimenMultiplier2">x2</span></button>
+				<p id="costSpecimenMultiplier">2000 Chromosomes</p>
+				<p id="currentSpecimenMultiplier">Your current Multiplier Upgrade x2</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p id="amountiqMultiplier">Multiplier Upgrade x2</p>
+				<button onclick="buyiqMultiplier()"><span id="amountiqMultiplier2">x2</span></button>
+				<p id="costiqMultiplier">3000 Chromosomes</p>
+				<p id="currentiqMultiplier">Your current Multiplier Upgrade x2</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p id="amountlulMultiplier">Multiplier Upgrade x2</p>
+				<button onclick="buylulMultiplier()"><span id="amountlulMultiplier2">x2</span></button>
+				<p id="costlulMultiplier">4000 Chromosomes</p>
+				<p id="currentlulMultiplier">Your current Multiplier Upgrade x2</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p id="amountAutismMultiplier">Multiplier Upgrade x2</p>
+				<button onclick="buyAutismMultiplier()"><span id="amountAutismMultiplier2">x2</span></button>
+				<p id="costAutismMultiplier">5000 Chromosomes</p>
+				<p id="currentAutismMultiplier">Your current Multiplier Upgrade x2</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p id="amountbadMemeMultiplier">Multiplier Upgrade x2</p>
+				<button onclick="buybadMemeMultiplier()"><span id="amountbadMemeMultiplier2">x2</span></button>
+				<p id="costbadMemeMultiplier">6000 Chromosomes</p>
+				<p id="currentbadMemeMultiplier">Your current Multiplier Upgrade x2</p>
+			</div>
+		</div>
+	</body>
+</html>
